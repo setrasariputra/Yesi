@@ -50,6 +50,27 @@ body {
 .bg-blue {
     background-color: blue;
 }
+.topmenu {
+    text-align: right;
+}
+.topmenu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.topmenu ul li {
+    display: inline-block;
+}
+.topmenu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+}
+.topmenu ul li a:hover {
+    background-color: black;
+}
+
 @media (max-width: 1199px) {
     .container {
         width: 940px;
