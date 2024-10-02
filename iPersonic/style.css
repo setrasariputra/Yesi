@@ -37,6 +37,9 @@ body {
 .btn.btn-orange:hover {
     background-color: #cd5a0e;
 }
+.icon-sm {
+    font-size: 10px;
+}
 
 @media (max-width: 1199px) {
     .container {
