@@ -15,6 +15,28 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.btn {
+    display: inline-block;
+    background-color: #cccccc;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+.btn:hover {
+    background-color: #bbbbbb;
+}
+.btn.btn-sm {
+    font-size: 12px;
+    padding: 7px 12px 7px 12px;
+    font-weight: bold;
+}
+.btn.btn-orange {
+    background-color: #FF7518;
+    color: white;
+}
+.btn.btn-orange:hover {
+    background-color: #cd5a0e;
+}
 
 @media (max-width: 1199px) {
     .container {
