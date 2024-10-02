@@ -8,8 +8,12 @@ body {
     color: white;
 }
 .container {
-    max-width: 1150px;
+    max-width: 1270px;
     margin: auto;
+}
+.grid-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .logo {
     padding-top: 10px;
@@ -40,7 +44,12 @@ body {
 .icon-sm {
     font-size: 10px;
 }
-
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
 @media (max-width: 1199px) {
     .container {
         width: 940px;
