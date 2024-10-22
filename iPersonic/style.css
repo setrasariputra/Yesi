@@ -95,7 +95,6 @@ body {
     color: white;
     background-color: #2780E3;
 }
-
 @media (max-width: 1199px) {
     .container {
         width: 940px;
