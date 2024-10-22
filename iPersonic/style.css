@@ -19,6 +19,12 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
 .btn {
     display: inline-block;
     background-color: #cccccc;
@@ -98,7 +104,7 @@ body {
 .topmenu ul li a.show-on-tab {
     display: none;
 }
-.topmenu ul li a.hide-on-tab {
+.topmenu ul li a.hide-on-tab, .hide-on-tab {
     display: block;
 }
 @media (max-width: 1199px) {
@@ -120,5 +126,12 @@ body {
     }
     .topmenu ul li a.hide-on-tab {
         display: none;
+    }
+    .topmenu li:hover ul {
+        margin-left: -150px;
+    }
+    .grid-column {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 }
