@@ -95,6 +95,12 @@ body {
     color: white;
     background-color: #2780E3;
 }
+.topmenu ul li a.show-on-tab {
+    display: none;
+}
+.topmenu ul li a.hide-on-tab {
+    display: block;
+}
 @media (max-width: 1199px) {
     .container {
         width: 940px;
@@ -108,5 +114,11 @@ body {
 @media (max-width: 767px) {
     .container {
         width: 95%;
+    }
+    .topmenu ul li a.show-on-tab {
+        display: block;
+    }
+    .topmenu ul li a.hide-on-tab {
+        display: none;
     }
 }
